@@ -1,0 +1,418 @@
+fileFormatVersion: 2
+guid: d7a8b6f7103af564f89ed0eec1a7995d
+timeCreated: 1444405382
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: digdug2_enemies_sheet_0
+    21300002: digdug2_enemies_sheet_1
+    21300004: digdug2_enemies_sheet_2
+    21300006: digdug2_enemies_sheet_3
+    21300008: digdug2_enemies_sheet_4
+    21300010: digdug2_enemies_sheet_5
+    21300012: digdug2_enemies_sheet_6
+    21300014: digdug2_enemies_sheet_7
+    21300016: digdug2_enemies_sheet_8
+    21300018: digdug2_enemies_sheet_9
+    21300020: digdug2_enemies_sheet_10
+    21300022: digdug2_enemies_sheet_11
+    21300024: digdug2_enemies_sheet_12
+    21300026: digdug2_enemies_sheet_13
+    21300028: digdug2_enemies_sheet_14
+    21300030: digdug2_enemies_sheet_15
+    21300032: digdug2_enemies_sheet_16
+    21300034: digdug2_enemies_sheet_17
+    21300036: digdug2_enemies_sheet_18
+    21300038: digdug2_enemies_sheet_19
+    21300040: digdug2_enemies_sheet_20
+    21300042: digdug2_enemies_sheet_21
+    21300044: digdug2_enemies_sheet_22
+    21300046: digdug2_enemies_sheet_23
+    21300048: digdug2_enemies_sheet_24
+    21300050: digdug2_enemies_sheet_25
+    21300052: digdug2_enemies_sheet_26
+    21300054: digdug2_enemies_sheet_27
+    21300056: digdug2_enemies_sheet_28
+    21300058: digdug2_enemies_sheet_29
+    21300060: digdug2_enemies_sheet_30
+    21300062: digdug2_enemies_sheet_31
+    21300064: digdug2_enemies_sheet_32
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: digdug2_enemies_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 62
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 61
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 62
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 62
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 62
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 62
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 65
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 64
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 61
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 60
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 58
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 58
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 32
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 32
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 32
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 31
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 31
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 38
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 38
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 38
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 38
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 32
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 29
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 28
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 27
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 33
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 33
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 2
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 2
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 0
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug2_enemies_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 0
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

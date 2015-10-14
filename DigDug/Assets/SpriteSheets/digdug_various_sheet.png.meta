@@ -1,0 +1,726 @@
+fileFormatVersion: 2
+guid: c9e2dd2f9543fc2409c64e10b3af1887
+timeCreated: 1443798991
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: digdug_various_sheet_0
+    21300002: digdug_various_sheet_1
+    21300004: digdug_various_sheet_2
+    21300006: digdug_various_sheet_3
+    21300008: digdug_various_sheet_4
+    21300010: digdug_various_sheet_5
+    21300012: digdug_various_sheet_6
+    21300014: digdug_various_sheet_7
+    21300016: digdug_various_sheet_8
+    21300018: digdug_various_sheet_9
+    21300020: digdug_various_sheet_10
+    21300022: digdug_various_sheet_11
+    21300024: digdug_various_sheet_12
+    21300026: digdug_various_sheet_13
+    21300028: digdug_various_sheet_14
+    21300030: digdug_various_sheet_15
+    21300032: digdug_various_sheet_16
+    21300034: digdug_various_sheet_17
+    21300036: digdug_various_sheet_18
+    21300038: digdug_various_sheet_19
+    21300040: digdug_various_sheet_20
+    21300042: digdug_various_sheet_21
+    21300044: digdug_various_sheet_22
+    21300046: digdug_various_sheet_23
+    21300048: digdug_various_sheet_24
+    21300050: digdug_various_sheet_25
+    21300052: digdug_various_sheet_26
+    21300054: digdug_various_sheet_27
+    21300056: digdug_various_sheet_28
+    21300058: digdug_various_sheet_29
+    21300060: digdug_various_sheet_30
+    21300062: digdug_various_sheet_31
+    21300064: digdug_various_sheet_32
+    21300066: digdug_various_sheet_33
+    21300068: digdug_various_sheet_34
+    21300070: digdug_various_sheet_35
+    21300072: digdug_various_sheet_36
+    21300074: digdug_various_sheet_37
+    21300076: digdug_various_sheet_38
+    21300078: digdug_various_sheet_39
+    21300080: digdug_various_sheet_40
+    21300082: digdug_various_sheet_41
+    21300084: digdug_various_sheet_42
+    21300086: digdug_various_sheet_43
+    21300088: digdug_various_sheet_44
+    21300090: digdug_various_sheet_45
+    21300092: digdug_various_sheet_46
+    21300094: digdug_various_sheet_47
+    21300096: digdug_various_sheet_48
+    21300098: digdug_various_sheet_49
+    21300100: digdug_various_sheet_50
+    21300102: digdug_various_sheet_51
+    21300104: digdug_various_sheet_52
+    21300106: digdug_various_sheet_53
+    21300108: digdug_various_sheet_54
+    21300110: digdug_various_sheet_55
+    21300112: digdug_various_sheet_56
+    21300114: digdug_various_sheet_57
+    21300116: digdug_various_sheet_58
+    21300118: digdug_various_sheet_59
+    21300120: digdug_various_sheet_60
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: digdug_various_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 99
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 99
+        width: 76
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 124
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 125
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 124
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 125
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 125
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 123
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 125
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 123
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 94
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 95
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 94
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 95
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 94
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 94
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 94
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 94
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 64
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 64
+        width: 43
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 65
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 64
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 65
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 64
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 38
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 35
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 35
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 33
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 31
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 31
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 39
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 29
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 39
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 29
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 11
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 5
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 5
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 5
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 5
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 5
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 5
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 5
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 0
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 4
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 5
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: digdug_various_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
