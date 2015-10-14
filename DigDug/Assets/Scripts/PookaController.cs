@@ -93,8 +93,8 @@ public class PookaController : MonoBehaviour {
         ignoreLayer = LayerMask.NameToLayer("Inflated");
         Physics.IgnoreLayerCollision(ignoreLayer, defaultLayer, true);
 
-        NameBlocks();
-        lastBlocksTouched = new List<GameObject>();      
+        //NameBlocks();
+        //lastBlocksTouched = new List<GameObject>();      
     }
 
    
@@ -634,6 +634,15 @@ public class PookaController : MonoBehaviour {
         for (int i = 0; i < blocks.Length; i++)
         {
             blocks[i].name = ("block" + i.ToString());
+        }
+    }
+
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.tag == "Rock")
+        {
+            InitiateDeath(2);            
         }
     }
 }
