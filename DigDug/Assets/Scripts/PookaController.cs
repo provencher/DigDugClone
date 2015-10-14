@@ -526,9 +526,9 @@ public class PookaController : MonoBehaviour {
         float depth;
         if(transform.position.y > 0)
         {
-            depth = transform.position.y;
+            depth = transform.position.y + 1;
         }else{
-            depth = Mathf.Abs(transform.position.y)*2;
+            depth = Mathf.Abs(transform.position.y)*2  + 1;
         }
 
         NotifyOfDeath((int)(enemyType * modifier * depth * 500));
