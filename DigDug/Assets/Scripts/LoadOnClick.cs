@@ -8,11 +8,11 @@ public class LoadOnClick : MonoBehaviour {
         PlayerPrefs.SetInt("score", 0);
         PlayerPrefs.SetInt("lives", 2);
 
-        float speed = 0.012f;
+        float speed = 0.008f;
         int enemies = 3;
         if(level == 2)
         {
-            speed = 0.02f;
+            speed = 0.015f;
             enemies = 5;
         }
 

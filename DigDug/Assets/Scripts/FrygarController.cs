@@ -72,8 +72,9 @@ public class FrygarController : MonoBehaviour {
     void MoveEnemy()
     {
         Vector3 PookaPos = transform.position;
-        Vector3 targetLocation;
+        Vector3 targetLocation = Vector3.zero;
         Vector2 dir = Vector2.zero;
+        
 
         if (alliesRemaining > 0)
         {
@@ -108,7 +109,7 @@ public class FrygarController : MonoBehaviour {
 
             if (!DirectionClear(lastDirection) || openPaths > 2)
             {
-                //dir = FindDirectionToMove(targetLocation);
+                dir = FindDirectionToMove(targetLocation);
             }
 
             openPaths = 0;

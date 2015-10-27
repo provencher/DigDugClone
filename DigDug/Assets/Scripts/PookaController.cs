@@ -93,8 +93,8 @@ public class PookaController : MonoBehaviour {
         ignoreLayer = LayerMask.NameToLayer("Inflated");
         Physics.IgnoreLayerCollision(ignoreLayer, defaultLayer, true);
 
-        //NameBlocks();
-        //lastBlocksTouched = new List<GameObject>();      
+        NameBlocks();
+        lastBlocksTouched = new List<GameObject>();      
     }
 
    
@@ -124,7 +124,7 @@ public class PookaController : MonoBehaviour {
             }
             else
             {
-                if (timeCheck > 1.0f)
+                if (timeCheck > 1.5f)
                 {
                     inflationLvl--;
                     timeCheck = 0;
@@ -142,48 +142,7 @@ public class PookaController : MonoBehaviour {
         anim.SetBool("ghost", ghostMode);
     }
 
-    void RandomAttack(Vector2 direct)
-    {
-        if (enemyType == 2)
-        {
-            if (atkTimer > 5)
-            {
-                atkTimer = 0;
-
-                int randomNum1 = Mathf.CeilToInt(Random.Range(0.1f, 0.9f) * 99);
-                int randomNum2 = Mathf.CeilToInt(Random.Range(0.1f, 0.9f) * 99);
-
-                if (Mathf.CeilToInt(atkTimer * Mathf.Sqrt(randomNum2)) % randomNum1 == 0)
-                {
-                    DrawFire(direct);
-
-                    Vector2 StartPosition = transform.position;
-                    Vector2 EndPosition = StartPosition + direct;
-
-                    Vector3 endLineDraw = transform.position;
-                    endLineDraw.x += direct.x;
-                    endLineDraw.y += direct.y;
-
-                    RaycastHit2D hit = Physics2D.Linecast(StartPosition, EndPosition);
-                    Debug.DrawLine(transform.position, endLineDraw, Color.red, 2, false);
-                    //Debug.Break();
-
-                    if (hit.collider != null && hit.collider.gameObject.tag == "Player")
-                    {
-                        hit.collider.gameObject.SendMessage("Attacked");                        
-                    }
-                }
-            }
-            else
-            {
-                atkTimer += Time.deltaTime;
-                fire.transform.position = new Vector3(-100, -100, 0);
-            }
-
-
-        }
-    }
-
+    
 
 
     void DrawFire(Vector2 direct)
@@ -253,14 +212,10 @@ public class PookaController : MonoBehaviour {
                 }
             }
 
-            if (!DirectionClear(lastDirection))
+            if (!DirectionClear(lastDirection) || openPaths > 2)
             {
                 dir = FindDirectionToMove(targetLocation);
-            }
-            else if (openPaths > 2)
-            {
-                dir = FindDirectionToMove(targetLocation);                
-            }
+            }          
 
             openPaths = 0;
 
@@ -320,7 +275,7 @@ public class PookaController : MonoBehaviour {
 
         if (Mathf.CeilToInt(ghostTimer * Mathf.Sqrt(randomNum2)) % randomNum1 == 0)
         {
-            if (randomNum2 % Mathf.CeilToInt(Mathf.Sqrt(randomNum1)+randomNum1) == 0)
+            if (randomNum2 % 13 == 0)
             {
                 ghostDestination.x = diggerPosition.x;
                 ghostDestination.y = diggerPosition.y;
@@ -352,8 +307,9 @@ public class PookaController : MonoBehaviour {
         float x = Mathf.Abs(direction.x);
         float y = Mathf.Abs(direction.y);
 
+        
         int coinFlip = 0;
-
+                
         if (dir1Clear && dir1Clear)
         {
             coinFlip = Random.Range(0, 1);
@@ -430,17 +386,47 @@ public class PookaController : MonoBehaviour {
                 }
             }            
         }
+        
+/*
+        if (x > y && dir1Clear)
+        {
+            ret = dir1;
 
+        }
+        else if (y > x && dir2Clear)
+        {
+            ret = dir2;
+        }
+        else
+        {
+            if (dir2Clear && !dir1Clear)
+            {
+                ret = dir2;
+            }
+            else if (dir1Clear && !dir2Clear)
+            {
+                ret = dir1;
+            }
+            else if (DirectionClear(-1 * dir1))
+            {
+                ret = -1 * dir1;
+            }
+            else
+            {
+                ret = -1 * dir2;
+            }
+
+        }
+        */
         return ret;
-    }
-
+    }    
 
     bool DirectionClear(Vector2 direction)
     {
         bool isClear = true;
         Vector2 StartPosition;
         Vector2 EndPosition;
-        RaycastHit2D hit;
+        RaycastHit2D hit = new RaycastHit2D();
         float increment;
         float boxSize = GetComponent<BoxCollider2D>().size.x;
         float scale = transform.localScale.x;
@@ -488,7 +474,7 @@ public class PookaController : MonoBehaviour {
                hit.collider.gameObject.tag == "Rock"
                ));
             
-        }
+        }      
 
         return isClear;
     }
@@ -634,6 +620,47 @@ public class PookaController : MonoBehaviour {
         for (int i = 0; i < blocks.Length; i++)
         {
             blocks[i].name = ("block" + i.ToString());
+        }
+    }
+    void RandomAttack(Vector2 direct)
+    {
+        if (enemyType == 2)
+        {
+            if (atkTimer > 5)
+            {
+                atkTimer = 0;
+
+                int randomNum1 = Mathf.CeilToInt(Random.Range(0.1f, 0.9f) * 99);
+                int randomNum2 = Mathf.CeilToInt(Random.Range(0.1f, 0.9f) * 99);
+
+                if (Mathf.CeilToInt(atkTimer * Mathf.Sqrt(randomNum2)) % randomNum1 == 0)
+                {
+                    DrawFire(direct);
+
+                    Vector2 StartPosition = transform.position;
+                    Vector2 EndPosition = StartPosition + direct;
+
+                    Vector3 endLineDraw = transform.position;
+                    endLineDraw.x += direct.x;
+                    endLineDraw.y += direct.y;
+
+                    RaycastHit2D hit = Physics2D.Linecast(StartPosition, EndPosition);
+                    Debug.DrawLine(transform.position, endLineDraw, Color.red, 2, false);
+                    //Debug.Break();
+
+                    if (hit.collider != null && hit.collider.gameObject.tag == "Player")
+                    {
+                        hit.collider.gameObject.SendMessage("Attacked");
+                    }
+                }
+            }
+            else
+            {
+                atkTimer += Time.deltaTime;
+                fire.transform.position = new Vector3(-100, -100, 0);
+            }
+
+
         }
     }
 
